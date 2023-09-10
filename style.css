@@ -1,0 +1,116 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111; /* Dark background */
+  color: #fff; /* Light text */
+}
+
+header {
+  background-color: #000; /* Even darker header background */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Add some subtle animations for a cinematic feel */
+header {
+  transition: background-color 0.5s ease;
+}
+
+header:hover {
+  background-color: #333; /* Slightly lighter on hover */
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: #222; /* Slightly lighter form background */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #333; /* Dark input background */
+  color: #fff; /* Light input text */
+}
+
+.form-submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button[type="submit"] {
+  background-color: #444; /* Darker button color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth button color change */
+}
+
+button[type="submit"]:hover {
+  background-color: #555; /* Slightly lighter on hover */
+}
+
+#submitted-content {
+  display: none;
+  margin-top: 40px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for content */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+}
+
+h2 {
+  color: #fff; /* Light text color */
+}
+
+#content-display {
+  margin-bottom: 10px;
+  white-space: pre-line;
+}
+
+#image-display,
+#video-display {
+  display: block;
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+#title-display,
+#content-display {
+  margin-bottom: 10px;
+  white-space: pre-line;
+}
+
+#image-display {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#video-display {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
